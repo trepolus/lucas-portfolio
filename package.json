@@ -2,12 +2,6 @@
   "name": "lucas-portfolio",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "eslint": "^7.6.0",
-    "stylelint": "^13.6.1",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-junit-formatter": "^0.2.2"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
