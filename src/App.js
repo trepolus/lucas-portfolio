@@ -15,10 +15,12 @@ const routes = {
 
 function App() {
   const match = useRoutes(routes);
-  return (<Wrapper>
+  return (
+    <Wrapper>
       <Navbar />
       {match || <NotFound />}
-    </Wrapper>);
+    </Wrapper>
+  );
 }
 
 export default App;
